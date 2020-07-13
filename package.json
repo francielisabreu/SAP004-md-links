@@ -1,4 +1,36 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "1.0.0",
+  "description": "biblioteca desenvolvida para auxiliar a leitura de links em documentos de Markdown",
+  "main": "index.js",
+  "keywords": [
+    "markdown",
+    "library",
+    "links",
+    "biblioteca",
+    "cli"
+  ],
+  "bin": {
+    "md-links": "cli.js"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francielisabreu/SAP004-md-links.git"
+  },
+  "author": "Francieli Abreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francielisabreu/SAP004-md-links/issues"
+  },
+  "homepage": "https://github.com/francielisabreu/SAP004-md-links#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "jest": "^26.1.0"
+  }
 }
